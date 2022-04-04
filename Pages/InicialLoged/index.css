@@ -1,0 +1,154 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video, strong, input {
+	margin: 0;
+	padding: 0;
+}
+
+body { 
+    background-color: rgb(228, 228, 228);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+header {
+      background-color: rgb(0, 0, 0);
+      color: white;
+      padding: 5px 0;
+  }
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .left-header {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+header .left-header img {
+    margin-right: 10px;
+}
+
+header .rigth-header {
+
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+header ul, li {
+    display: inline;
+  }
+
+footer {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 5px 0;
+    text-align: center;
+  }
+  
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.content {
+    min-height: calc(100vh - 73px);
+}
+
+.dados-iniciais {
+    background-color: white;
+    margin: 10px 0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.dados-iniciais .left-dados {
+    /* background-color: blue; */
+    /* border: 1px solid black; */
+    width: 400px;
+    padding: 10px;
+}
+
+.dados-iniciais .left-dados img{
+    width: 400px;
+}
+
+.dados-iniciais .left-dados p {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.dados-iniciais .rigth-dados {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dados-iniciais .rigth-dados .container-dados {
+    width: 400px;
+    padding: 20px;
+}
+
+.dados-iniciais .rigth-dados h4 {
+    margin-bottom: 25px;
+}
+
+.dados-iniciais .rigth-dados p {
+    margin-bottom: 15px;
+}
+
+.dados-iniciais .rigth-dados input{
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.dados-iniciais .rigth-dados .altura-genero {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.dados-iniciais .rigth-dados .peso-data {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dados-iniciais .rigth-dados .dados {
+    display: flex;
+}
+
+.dados-iniciais .rigth-dados a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.dados-iniciais .rigth-dados .botoes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
