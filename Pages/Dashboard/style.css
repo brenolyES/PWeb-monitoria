@@ -121,3 +121,30 @@ footer {
 .monitoramento form {
     margin-left: 10px;
 }
+
+.evolucao {
+    display: flex;
+    flex-direction: column;
+}
+
+.evolucao h2 {
+    margin-bottom: 10px;
+}
+
+.evolucao .progresso {
+    padding: 0px 40px;
+}
+
+.evolucao .tempo {
+    margin-top: 10px;
+    padding: 0px 40px;
+    margin-bottom: 20px;
+}
+
+.evolucao .quadrado{
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+}
