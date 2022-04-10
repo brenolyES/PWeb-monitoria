@@ -148,3 +148,58 @@ footer {
     justify-content: center;
     border-radius: 8px;
 }
+
+.imc {
+    display: flex;
+    flex-direction: column;
+}
+
+.imc h2 {
+    margin-bottom: 10px;
+}
+
+.medidor {
+    display: flex;
+    flex-direction: column;
+}
+
+.medidor-titulo {
+    margin: 0 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.medidor-quadrados {
+    margin: 0 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.medidor-quadrados .um {
+    width: 33.3%;
+    height: 30px;
+    border-radius: 8px 0 0 8px;
+}
+
+.medidor-quadrados .dois {
+    width: 33.3%;
+    height: 30px;
+}
+
+.medidor-quadrados .tres {
+    width: 33.3%;
+    height: 30px;
+    border-radius: 0 8px 8px 0;
+}
+
+.medidor-ponteiro {
+    display: flex;
+    margin: 0 40px;
+    margin-bottom: 20px;
+}
+
+.ponteiro {
+    position: absolute;
+    margin-left: 0px;
+    /* de 0 ate 1070 */
+}
